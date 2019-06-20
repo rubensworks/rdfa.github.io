@@ -1,7 +1,10 @@
 BASE <http://example.org/>
 PREFIX schema: <http://schema.org/>
 ASK WHERE {
-  #foo schema:refers-to _:p .
-  #bar schema:refers-to _:p .
-  _:p schema:name "Amanda" .
+  #foo schema:refers-to _:p ;
+  	 a schema: .
+  #bar schema:refers-to _:p ;
+  	a schema: .
+  _:p schema:name "Amanda" ;
+    a schema: .
 }
