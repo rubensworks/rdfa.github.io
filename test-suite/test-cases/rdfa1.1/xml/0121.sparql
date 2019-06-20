@@ -1,4 +1,4 @@
 ASK WHERE {
  <http://example.org/> <http://purl.org/dc/elements/1.1/title> "Test Case 0121" .
- <http://example.org/> <http://purl.org/dc/elements/1.1/contributor> "Shane McCarron" .
+ <http://rdfa.info/test-suite/test-cases/rdfa1.1/xhtml5/0121.xml> <http://purl.org/dc/elements/1.1/contributor> "Shane McCarron" .
 }
