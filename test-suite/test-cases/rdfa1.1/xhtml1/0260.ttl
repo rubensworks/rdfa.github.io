@@ -1,7 +1,7 @@
 @prefix xhv: <http://www.w3.org/1999/xhtml/vocab#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-[
+<http://rdfa.info/test-suite/test-cases/rdfa1.1/xhtml1/0260.xhtml>
   # Vocabulary Terms
   xhv:alternate "alternate";
   xhv:appendix "appendix";
@@ -29,5 +29,4 @@
   xhv:up "up";
 
   # Other terms
-  xhv:p3pv1 "p3pv1"
-] .
+  xhv:p3pv1 "p3pv1".
