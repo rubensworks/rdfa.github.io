@@ -35,7 +35,8 @@
 
 xmlzzz: dct:title "Test Case 0121",
      "Example Website";
-   rdf:value "value" .
+   rdf:value "value" ;
+   dct:contributor "Shane McCarron" .
 
 xmlzzz:example.png a :Image;
    xhv:license <http://creativecommons.org/licenses/by-nc-sa/2.0/> .
@@ -236,8 +237,7 @@ whitespace     preserved
    og: "OG";
    dct: "DC",
      "DCTERMS";
-   dct:contributor "Mark Birbeck",
-     "Shane McCarron";
+   dct:contributor "Mark Birbeck";
    dct:language "Ruby";
    gr: "GR";
    rev: "REV";
