@@ -4,11 +4,8 @@
 
 <http://example.org/> rdfa:usesVocabulary schema: .
 
-<http://example.org/#bar> schema:refers-to _:g70125090349220 ;
-	 a schema: .
+<http://example.org/#bar> schema:refers-to _:g70125090349220 .
 
-<http://example.org/#foo> schema:refers-to _:g70125090349220 ;
-	 a schema: .
+<http://example.org/#foo> schema:refers-to _:g70125090349220 .
 
-_:g70125090349220 schema:name "Amanda" ;
-	 a schema: .
+_:g70125090349220 schema:name "Amanda" .
